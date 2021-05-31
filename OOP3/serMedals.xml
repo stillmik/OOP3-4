@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="12.0.2" class="java.beans.XMLDecoder">
+ <int>4</int>
+ <object class="Badges.Medal">
+  <void property="affiliation">
+   <string>1</string>
+  </void>
+  <void property="branchMerit">
+   <string>11</string>
+  </void>
+  <void property="thankedFor">
+   <string>1</string>
+  </void>
+  <void property="uniqNum">
+   <int>1</int>
+  </void>
+  <void property="wearing">
+   <object class="java.lang.Enum" id="Wearing0" method="valueOf">
+    <class>Awards.Wearing</class>
+    <string>LEFT</string>
+   </object>
+  </void>
+ </object>
+ <object class="Badges.Medal">
+  <void property="affiliation">
+   <string>1</string>
+  </void>
+  <void property="branchMerit">
+   <string>11</string>
+  </void>
+  <void property="thankedFor">
+   <string>1</string>
+  </void>
+  <void property="uniqNum">
+   <int>11</int>
+  </void>
+  <void property="wearing">
+   <object idref="Wearing0"/>
+  </void>
+ </object>
+ <object class="Badges.Medal">
+  <void property="affiliation">
+   <string>1</string>
+  </void>
+  <void property="branchMerit">
+   <string>11</string>
+  </void>
+  <void property="thankedFor">
+   <string>1</string>
+  </void>
+  <void property="uniqNum">
+   <int>111</int>
+  </void>
+  <void property="wearing">
+   <object idref="Wearing0"/>
+  </void>
+ </object>
+ <object class="Badges.Medal">
+  <void property="affiliation">
+   <string>1</string>
+  </void>
+  <void property="branchMerit">
+   <string>11</string>
+  </void>
+  <void property="thankedFor">
+   <string>1</string>
+  </void>
+  <void property="uniqNum">
+   <int>1111</int>
+  </void>
+  <void property="wearing">
+   <object idref="Wearing0"/>
+  </void>
+ </object>
+</java>
